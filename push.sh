@@ -17,7 +17,7 @@ echo "=== Adding all files ==="
 git add -A
 
 echo "=== Committing ==="
-git commit -m "Fix: Portraitbild Kopf nicht mehr abgeschnitten" || echo "Nothing to commit"
+git commit -m "Fix: Update logo and fix modal images" || echo "Nothing to commit"
 
 echo "=== Pushing to GitHub ==="
 git push -u origin main --force
